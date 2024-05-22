@@ -25,11 +25,7 @@ class MouseMap:
             if keyboard.is_pressed('F7'):
                 b = False
             time.sleep(0.01)
-        '''for i in range(500):
-            a = self.mouse_out()
-            x.append(a[0])
-            y.append(-a[1])
-            time.sleep(0.01)'''
+
         plt.plot(x, y)
         plt.show()
 
