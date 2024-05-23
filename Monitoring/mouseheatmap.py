@@ -35,6 +35,8 @@ class MouseMap:
         plt.imshow(heatmap.T, origin='lower', cmap='hot', interpolation='nearest')
         plt.colorbar()
         plt.title('Mouse Movement Heatmap')
+        #plt.xlim([0, 1920])
+        #plt.ylim([0, 1080])
         plt.xlabel('X')
         plt.ylabel('Y')
         plt.gca().set_aspect(1080 / 1920)
